@@ -1,0 +1,134 @@
+
+/***************************************************
+* =typography
+***************************************************/
+body{
+  font-family: 'Roboto',sans-serif;
+}
+
+/***************************************************
+* = misc
+***************************************************/
+
+.container_12{
+  margin-top: 20px;
+}
+
+li{
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  color: #a3a3a3;
+}
+
+a:hover{
+  color: #000000;
+}
+
+/***************************************************
+* =header
+***************************************************/
+
+.logo h1{
+  text-indent: -9999px;
+  background: url(../img/logo.png) no-repeat;
+  width: 382px;
+  height: 62px;
+}
+
+.nav{
+  padding-top: 15px;
+  font-size: 20px;
+  float: right;
+}
+
+.nav a{
+  text-transform: lowercase;
+}
+
+/***************************************************
+* =hero
+***************************************************/
+
+.hero {
+  margin-top: 30px;
+  background: url(../img/ps_wall.png) no-repeat;
+  width: 960px;
+  height:540px;
+  position: relative;
+}
+
+.hero h1 span{
+  padding: 10px;
+  position: absolute;
+  top: 360px;
+  right: 0px;
+  color: #e3e3e3;
+  font-size: 30px;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.7);
+  letter-spacing: -1px;
+}
+
+/***************************************************
+* =content
+***************************************************/
+
+.content{
+  margin-top: 40px;
+  padding-top: 10px;
+}
+
+.column:nth-of-type(2){
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.content h2{
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+.content h5{
+  font-size: 14px;
+  color: #a3a3a3;
+}
+
+/***************************************************
+*  =footer
+***************************************************/
+
+footer{
+  margin-top: 40px;
+  background: #262626;
+  padding: 10px;
+}
+
+footer h6{
+  color: #f6f6f6;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.links li:after{
+  padding-left: 30px;
+  content: "/";
+  color: #a3a3a3;
+}
+
+.links li:last-of-type:after{
+  content: none;
+}
+
+.social{
+  float: right;
+}
+
+.social img{
+  width: 32px;
+  height: 32px;
+}
